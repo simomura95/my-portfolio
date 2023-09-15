@@ -5,7 +5,7 @@ const ThemeContext = createContext();
 export const ThemeProvider = ({ children }) => {
     const [isDark, setIsDark] = useState(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
 
-  const toggleTheme = () => {
+  function toggleTheme() {
     setIsDark(!isDark);
   };
 

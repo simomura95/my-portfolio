@@ -14,12 +14,12 @@ function DarkModeToggle() {
 
 
   useEffect(() => {
-    document.querySelector("body").classList.toggle('dark-mode');
+    document.querySelector("body").classList.toggle('dark-mode', isDark);
   }, [isDark]); 
 
   return (
     <div className="form-check form-switch dark-mode-switch">
-        <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onChange={() => toggleTheme()}/>
+        <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked={isDark} onChange={() => toggleTheme()}/>
         <label className="form-check-label" htmlFor="flexSwitchCheckChecked">{isDark ? moon : sun}</label>
     </div>
   );
