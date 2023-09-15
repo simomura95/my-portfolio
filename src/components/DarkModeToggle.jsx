@@ -18,7 +18,7 @@ function DarkModeToggle() {
   }, [isDark]); 
 
   return (
-    <div className="form-check form-switch dark-mode-switch">
+    <div className="form-check form-switch dark-mode-switch"  data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
         <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked={isDark} onChange={() => toggleTheme()}/>
         <label className="form-check-label" htmlFor="flexSwitchCheckChecked">{isDark ? moon : sun}</label>
     </div>

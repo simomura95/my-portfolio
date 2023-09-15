@@ -20,7 +20,7 @@ function Navbar() {
                             <NavItem link="/career" text="Career" />
                             {/* <NavItem link="/contact" text="Contact" /> */}
                         </ul>
-                        <DarkModeToggle data-bs-theme="dark"/>
+                        <DarkModeToggle/>
                     </div>
                 </div>
             </nav>
