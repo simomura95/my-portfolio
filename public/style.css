@@ -1,0 +1,44 @@
+:root {
+    --color-light: #FAF0E6;
+    --color-dark: #352F44;
+    --color-title: #5C5470;
+}
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+}
+
+.dark-mode {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+.light-mode {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+a {
+    color: inherit
+}
+
+.navbar {
+    background-color: rgb(67, 66, 66);
+}
+
+.card .btn-outline-secondary {
+    color: inherit
+}
+
+.dark-mode-switch > .form-check-input{
+    background-color: grey;
+    border-color: white;
+    box-shadow: none;
+}
+
+/* #not-found {
+    all: unset!important;
+} */

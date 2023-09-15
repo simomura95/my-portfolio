@@ -1,0 +1,90 @@
+{
+    "pythonProjects": [
+        {
+            "img": "/images/cafe-advisor.png",
+            "text": "Flask application to check cafes near you. Users can register to add and review cafes, while admins can edit and delete them.",
+            "github": "https://github.com/simomura95/cafe-advisor-website",
+            "website": "https://cafe-advisor-b63s.onrender.com/"
+        },
+        {
+            "img": "/images/listodo.png",
+            "text": "Flask application to keep to-do lists. Users must register to use it, then they can add any number of list and items. Each one can be checked or deleted.",
+            "github": "https://github.com/simomura95/todo-list",
+            "website": "https://listodo.onrender.com/"
+        },
+        {
+            "img": "/images/image-to-colors.png",
+            "text": "Flask application to extract most used colors from an image.",
+            "github": "https://github.com/simomura95/dinosaur-google-game-bot",
+            "website": "https://image-to-colors.onrender.com/"
+        },
+        {
+            "img": "/images/chrome-dino-game.png",
+            "text": "Bot developed with PyAutoGUI to auto-play google dinosaur game.",
+            "github": "https://github.com/simomura95/dinosaur-google-game-bot",
+            "website": ""
+        },
+        {
+            "img": "/images/booking-automation.png",
+            "text": "Script for web scraping from Booking.com and Airbnb.it. Running it will send a mail with data from the websites results as defined in the script.",
+            "github": "https://github.com/simomura95/booking-airbnb-automation",
+            "website": ""
+        },
+        {
+            "img": "/images/breakout-game.png",
+            "text": "Breakout game from Atari, built with the Turtle package and OOP.",
+            "github": "https://github.com/simomura95/breakout-game",
+            "website": ""
+        },
+        {
+            "img": "/images/text-speech.png",
+            "text": "GUI app to convert a text file (.txt, .pdf or .doc) into a .mp3 file and vice-versa, using Google service packages.",
+            "github": "https://github.com/simomura95/text-speech-converter",
+            "website": ""
+        },
+        {
+            "img": "/images/fast-writing.png",
+            "text": "GUI app to force fast writing: if no input is given in 5 seconds, all text is deleted. It's possible to save results and switch between light and dark mode.",
+            "github": "https://github.com/simomura95/write-fast-app",
+            "website": ""
+        },
+        {
+            "img": "/images/typing-speed.png",
+            "text": "GUI app to test typing speed. Keeps track of user's high score.",
+            "github": "https://github.com/simomura95/Typing-speed-test",
+            "website": ""
+        },
+        {
+            "img": "/images/watermark-app.png",
+            "text": "GUI app to watermark photos, adding another photo or text from input as a logo.",
+            "github": "https://github.com/simomura95/watermarking-app",
+            "website": ""
+        },
+        {
+            "img": "/images/sudoku-solver.png",
+            "text": "Script to automatically solve sudoku using a backtracking algorithm. The scheme is given from the user.",
+            "github": "https://github.com/simomura95/sudoku-solver",
+            "website": ""
+        },
+        {
+            "img": "/images/forza-4.png",
+            "text": "Script to play the Connect 4 game (forza 4 in italian) on terminal, as text. 2 players required.",
+            "github": "https://github.com/simomura95/forza-4",
+            "website": ""
+        },
+        {
+            "img": "/images/tic-tac-toe.png",
+            "text": "Script to play Tic Tac Toe on terminal, as text. 2 players required.",
+            "github": "https://github.com/simomura95/tic-tac-toe",
+            "website": ""
+        }
+    ],
+    "jsProjects": [
+        {
+            "img": "",
+            "text": "This website. It was originally built with only HTML and CSS, and later translated to React.",
+            "github": "",
+            "website": ""
+        }
+    ]
+}

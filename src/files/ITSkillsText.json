@@ -1,0 +1,22 @@
+[
+    {
+        "name": "JavaScript",
+        "level": 80,
+        "text": "Scripting, jQuery, Node, Express, EJS, APIs, React"
+    },
+    {
+        "name": "HTML/CSS",
+        "level": 80,
+        "text": "Responsiveness, Bootstrap"
+    },
+    {
+        "name": "Python",
+        "level": 75,
+        "text": "Scripting, OOP, GUI with Tkinter, APIs, web scraping, web development with Flask"
+    },
+    {
+        "name": "Databases",
+        "level": 60,
+        "text": "SQLite, Oracle SQL, MongoDB"
+    }
+]
