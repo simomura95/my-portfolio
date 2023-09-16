@@ -29,15 +29,15 @@ function Portfolio() {
             </div>
         </div>
 
-        <div className="album py-5">
-            <div className="container">
-            <h2 className="text-center pb-3">Python projects</h2>
+        <div className="album pt-5">
+            <div className="container mb-5">
+                <h2 className="text-center pb-3">Python projects</h2>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     {projects.pythonProjects.map(createCard)}
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container mb-5">
             <h2 className="text-center pb-3">JavaScript & React projects</h2>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     {projects.jsProjects.map(createCard)}
