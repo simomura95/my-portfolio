@@ -13,9 +13,7 @@ function About() {
             <CareerSection
                 key={index}
                 title={section.title}
-                subtitle={section.subtitle}
-                location={section.location}
-                text={section.text}
+                data={section.data}
             />
             )
     }

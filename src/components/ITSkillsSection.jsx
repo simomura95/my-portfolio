@@ -1,13 +1,15 @@
 import ITSkillsText from "../files/ITSkillsText"
+import { useTheme } from "../contexts/themeContext";
 
 function ITSkillsSection() {
+    const {isDark} = useTheme()
     
     function createITSkill(skill, index) {
         return (
             <div key={index}>
                 <div className="lead fw-bold">{skill.name}</div>
-                <div className="progress mb-2" role="progressbar" aria-label={skill.name} aria-valuenow={skill.level} aria-valuemin="0" aria-valuemax="100">
-                    <div className="progress-bar bg-secondary" style={{width: `${skill.level}%`}}></div>
+                <div className={`progress mb-2 ${isDark ? "dark-light-bg" : "light-dark-bg"}`} role="progressbar" aria-label={skill.name} aria-valuenow={skill.level} aria-valuemin="0" aria-valuemax="100">
+                    <div className={`progress-bar ${isDark ? "light-dark-bg" : "dark-light-bg"}`} style={{width: `${skill.level}%`}}></div>
                 </div>
                 {skill.text && <p>{skill.text}</p>}
             </div>

@@ -1,7 +1,8 @@
 :root {
-    --color-light: #FAF0E6;
     --color-dark: #352F44;
-    --color-title: #5C5470;
+    --color-dark-light: #5C5470;
+    --color-light-dark: #dedbe7;
+    --color-light: #FAF0E6;
 }
 
 body {
@@ -19,6 +20,42 @@ body {
 .light-mode {
     background-color: var(--color-light);
     color: var(--color-dark);
+}
+
+.dark-light-bg {
+    background-color: var(--color-dark-light);
+    color: var(--color-light);
+}
+
+.light-dark-bg {
+    background-color: var(--color-light-dark);
+    color: var(--color-dark);
+}
+
+.dark-light-color{
+    color: var(--color-dark-light)
+}
+
+.light-dark-color{
+    color: var(--color-light-dark)
+}
+
+.slide-up {
+max-height: 0;
+overflow: hidden;
+opacity: 0;
+transition: max-height 0.5s ease-out, opacity 1s ease-out; /* Personalizza il tempo di transizione a tuo piacimento */
+}
+
+/* Classe per mostrare la sezione con uno slide verso il basso */
+.slide-down {
+max-height: 2500px; /* Altezza massima quando la sezione è aperta, personalizza se necessario */
+opacity: 1;
+transition: max-height 0.5s ease-in, opacity 0.3s ease-in; /* Personalizza il tempo di transizione a tuo piacimento */
+}
+
+.hand-pointer {
+    cursor: pointer;
 }
 
 a {

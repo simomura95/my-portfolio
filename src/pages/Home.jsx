@@ -3,14 +3,19 @@ import SocialButton from '../components/SocialButton'
 import socialButtonData from '../files/socialButtonData' ;
 import { Link } from 'react-router-dom';
 import CV from '../files/CV_Simone_Muraro_ENG.pdf'
+import { useTheme } from '../contexts/themeContext';
 
 function Home() {
+    const {isDark} = useTheme()
+    const buttonTheme = isDark ? "light-dark-bg" : "dark-light-bg"
+
     function createSocialButton(button, index) {
         return (
             <SocialButton
                 key={index}
                 link={button.link}
                 imgPath={button.imgPath}
+                theme={buttonTheme}
             />
         )
     }
@@ -25,9 +30,9 @@ function Home() {
                 </div>
                 {/* Text */}
                 <div className="col-lg-6 text-lg-start text-center px-sm-5">
-                    <h1 className="display-3 fw-bold mb-3">Simone Muraro</h1>
+                    <h1 className="display-2 fw-bold mb-3 ">Simone Muraro</h1>
                     <p className="fs-2">Aspiring full-stack engineer</p>
-                    <p className="fs-4">
+                    <p className="fs-5">
                         I am actively seeking openings for a junior position.<br />
                         Please don't hesitate to reach out if you have any inquiries or potential opportunities.
                     </p>
@@ -43,7 +48,7 @@ function Home() {
             <div className="row flex-lg-row align-items-center g-5 justify-content-center">
                 {/* Text */}
                 <div className="col-lg-8 text-lg-start text-center px-sm-5">
-                    <h2 className="display-5 fw-bold mb-3">About me</h2>
+                    <h2 className={`display-5 fw-bold mb-3 ${isDark ? "light-dark-color" : "dark-light-color"}`}>About me</h2>
                     <p className="fs-5">
                         I got into programming some months ago and decided to pursue it as a career.
                         Since then, I have been learning Python and web development full-time, adding to the experience gained on-the-job with databases.
@@ -58,10 +63,10 @@ function Home() {
 
                 {/* Buttons */}
                 <div className="col-lg-2 d-flex flex-lg-column justify-content-center gap-5">
-                    <Link to={"/portfolio"} className="btn btn-secondary">
+                    <Link to={"/portfolio"} className={`btn px-lg-0 px-4 ${buttonTheme}`}>
                         My projects
                     </Link>
-                    <Link to={CV} download="CV" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                    <Link to={CV} download="CV" target="_blank" rel="noopener noreferrer" className={`btn px-lg-0 px-4 ${buttonTheme}`}>
                         Download CV
                     </Link>
                 </div>

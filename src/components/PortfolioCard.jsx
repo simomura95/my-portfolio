@@ -4,10 +4,10 @@ function PortfolioCard(props) {
     const {isDark} = useTheme()
     
     return(
-        <div className="col d-flex align-items-stretch">
+        <div className="col d-flex align-items-stretch mb-3">
             <div className="card shadow-sm border-secondary">
                 { props.img && <img src={props.img} className="card-img-top object-fit-fill" width="100%" height="225" aria-label="Website preview" />}
-                <div className={`card-body d-flex flex-column ${props.img ? "rounded-bottom" : "rounded"} ${isDark ? "dark-mode" : "light-mode"}`}>
+                <div className={`card-body d-flex flex-column ${props.img ? "rounded-bottom" : "rounded"} ${isDark ? "dark-light-bg" : "light-dark-bg"}`}>
                     <p className="card-text">
                         {props.text}
                     </p>
