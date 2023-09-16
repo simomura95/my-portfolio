@@ -1,5 +1,5 @@
-import CareerSection from "../components/CareerSection"
-import careerText from "../files/careerText"
+import ResumeSection from "../components/ResumeSection"
+import resumeText from "../files/resumeText"
 import ITSkillsSection from "../components/ITSkillsSection"
 import SoftSkillsSection from "../components/SoftSkillsSection"
 import LanguageSkillsSection from "../components/LanguageSkillsSection"
@@ -10,7 +10,7 @@ function About() {
 
     function createSection(section, index) {
         return (
-            <CareerSection
+            <ResumeSection
                 key={index}
                 title={section.title}
                 data={section.data}
@@ -33,7 +33,7 @@ function About() {
             </div>
         </div>
 
-        {careerText.map(createSection)}
+        {resumeText.map(createSection)}
     </div>
     )
 }

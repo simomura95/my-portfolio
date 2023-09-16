@@ -1,6 +1,5 @@
 import { useTheme } from "../contexts/themeContext"
 import { useState } from "react"
-// import allProjects from "../files/portfolioProjects"
 import PortfolioCard from "../components/PortfolioCard"
 
 function PortfolioSection (props) {

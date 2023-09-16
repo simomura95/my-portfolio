@@ -76,5 +76,3 @@ function Home() {
 }
 
 export default Home;
-
-// I learnt Python and web development on Udemy, adding to the experience gained on-the-job with databases and Oracle SQL.

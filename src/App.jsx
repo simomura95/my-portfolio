@@ -2,8 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // pages & components
 import Home from './pages/Home'
-// import Contact from './pages/Contact'
-import Career from './pages/Career'
+import Resume from './pages/Resume'
 import Portfolio from './pages/Portfolio'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -29,8 +28,8 @@ function App() {
               element={addNavbarFooter(Home)} 
             />
             <Route 
-              path="/career" 
-              element={addNavbarFooter(Career)} 
+              path="/resume" 
+              element={addNavbarFooter(Resume)} 
             />
             <Route 
               path="/portfolio" 

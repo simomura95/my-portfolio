@@ -1,11 +1,7 @@
-// import { useLocation } from 'react-router-dom';
 import NavItem from "./NavItem"
 import DarkModeToggle from './DarkModeToggle';
 
 function Navbar() {
-    // const location = useLocation();
-
-    // if (location.pathname !== '/') { // nascondo la navbar nella home
         return (
             <nav className="navbar fixed-top navbar-expand-sm" data-bs-theme="dark" aria-label="Navbar">
                 <div className="container-fluid">
@@ -17,17 +13,13 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto me-sm-2 mb-2 mb-sm-0">
                             <NavItem link="/" text="Home" />
                             <NavItem link="/portfolio" text="Portfolio" />
-                            <NavItem link="/career" text="Career" />
-                            {/* <NavItem link="/contact" text="Contact" /> */}
+                            <NavItem link="/resume" text="Resume" />
                         </ul>
                         <DarkModeToggle/>
                     </div>
                 </div>
             </nav>
         )
-    // } else {
-    //     return null
-    // }
 }
 
 export default Navbar
