@@ -2,7 +2,7 @@
     {
         "name": "JavaScript",
         "level": 80,
-        "text": "Scripting, jQuery, Node, Express, EJS, APIs, React"
+        "text": "React, APIs, Express, Node, EJS, jQuery"
     },
     {
         "name": "HTML/CSS",
@@ -12,7 +12,7 @@
     {
         "name": "Python",
         "level": 75,
-        "text": "Scripting, OOP, GUI with Tkinter, APIs, web scraping, web development with Flask"
+        "text": "Flask, Jinja, web scraping, APIs, GUI (Tkinter), OOP"
     },
     {
         "name": "Databases",

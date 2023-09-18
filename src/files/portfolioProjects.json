@@ -3,19 +3,19 @@
         "Flask application": [
             {
                 "img": "/images/cafe-advisor.png",
-                "text": "Flask application to check cafes near you. Users can register to add and review cafes, while admins can edit and delete them. Can take up to some minutes to load the first time.",
+                "text": "Website to check cafes near you. Users can register to add and review cafes, while admins can also edit and delete them. Can take up to some minutes to load the first time.",
                 "github": "https://github.com/simomura95/cafe-advisor-website",
                 "website": "https://cafe-advisor-b63s.onrender.com/"
             },
             {
                 "img": "/images/listodo.png",
-                "text": "Flask application to keep to-do lists. Users must register to use it, then they can add, check or delete any number of list and items. Can take up to some minutes to load the first time.",
+                "text": "Website to keep to-do lists. Users must register to use it, then they can add, check or delete any number of list and items. Can take up to some minutes to load the first time.",
                 "github": "https://github.com/simomura95/todo-list",
                 "website": "https://listodo.onrender.com/"
             },
             {
                 "img": "/images/image-to-colors.png",
-                "text": "Flask application to extract most used colors from an image. Can take up to some minutes to load the first time.",
+                "text": "Website to extract most used colors from an image. Can take up to some minutes to load the first time.",
                 "github": "https://github.com/simomura95/dinosaur-google-game-bot",
                 "website": "https://image-to-colors.onrender.com/"
             }
@@ -29,7 +29,7 @@
             },
             {
                 "img": "/images/booking-automation.png",
-                "text": "Script for web scraping from Booking.com and Airbnb.it. Running it will send a mail with data from the websites results as defined in the script.",
+                "text": "Script for web scraping from Booking and Airbnb. It sends a mail with useful data from the websites, depending on the parameters defined in the script.",
                 "github": "https://github.com/simomura95/booking-airbnb-automation",
                 "website": ""
             }
@@ -43,7 +43,7 @@
             },
             {
                 "img": "/images/text-speech.png",
-                "text": "GUI app to convert a text file (.txt, .pdf or .doc) into a .mp3 file and vice-versa, using Google service packages.",
+                "text": "Convert a text file (.txt, .pdf or .doc) into a .mp3 file and vice-versa, using Google service packages.",
                 "github": "https://github.com/simomura95/text-speech-converter",
                 "website": ""
             },
@@ -55,13 +55,13 @@
             },
             {
                 "img": "/images/typing-speed.png",
-                "text": "GUI app to test typing speed. Keeps track of user's high score.",
+                "text": "Test typing speed and keeps track locally of user's high score.",
                 "github": "https://github.com/simomura95/Typing-speed-test",
                 "website": ""
             },
             {
                 "img": "/images/watermark-app.png",
-                "text": "GUI app to watermark photos, adding another photo or text from input as a logo.",
+                "text": "Watermark photos, adding another photo or text as a logo in a fixed position.",
                 "github": "https://github.com/simomura95/watermarking-app",
                 "website": ""
             }
@@ -69,19 +69,19 @@
         "Script": [
             {
                 "img": "/images/sudoku-solver.png",
-                "text": "Script to automatically solve sudoku using a backtracking algorithm. The scheme is given from the user.",
+                "text": "A sudoku solver running on terminal. The scheme is inputted by the user and solved automatically with a backtracking algorithm.",
                 "github": "https://github.com/simomura95/sudoku-solver",
                 "website": ""
             },
             {
                 "img": "/images/forza-4.png",
-                "text": "Script to play the Connect 4 game (forza 4 in italian) on terminal, as text. 2 players required.",
+                "text": "Connect 4 game (\"forza 4\" in italian) for two players played as text on terminal.",
                 "github": "https://github.com/simomura95/forza-4",
                 "website": ""
             },
             {
                 "img": "/images/tic-tac-toe.png",
-                "text": "Script to play Tic Tac Toe on terminal, as text. 2 players required.",
+                "text": "Tic-Tac-Toe game (\"tris\" in italian) for two players played as text on terminal.",
                 "github": "https://github.com/simomura95/tic-tac-toe",
                 "website": ""
             }

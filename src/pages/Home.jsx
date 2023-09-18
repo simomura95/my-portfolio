@@ -20,6 +20,15 @@ function Home() {
         )
     }
 
+    function downloadCV() {
+        const link = document.createElement('a');
+        link.href = CV;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.download = 'CV.pdf';
+        link.click();
+    }
+
     return (
         <div className="d-flex flex-column container-fluid px-4 py-5 justify-content-center home-bg">
             {/* First section */}
@@ -66,9 +75,12 @@ function Home() {
                     <Link to={"/portfolio"} className={`btn px-lg-0 px-4 ${buttonTheme}`}>
                         My projects
                     </Link>
-                    <Link to={CV} download="CV" target="_blank" rel="noopener noreferrer" className={`btn px-lg-0 px-4 ${buttonTheme}`}>
+                    <button
+                        onClick={downloadCV}
+                        className={`btn px-lg-0 px-4 ${buttonTheme}`}
+                        >
                         Download CV
-                    </Link>
+                    </button>
                 </div>
             </div>
         </div>

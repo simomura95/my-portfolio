@@ -3,12 +3,12 @@
         "title": "Work experiences",
         "data": [
             {
-            "subtitle": "2021 - 2023: Company solution consultant",
-            "location": "@ Engineering Ingegneria Informatica",
-            "text": [
-                "Application specialist at the Hospital in Padua, plus participations in kick-offs of our software in various italian hospitals.",
-                "I have been a point person for the customer, with a role of responsibility and autonomy both in the management of routine activities (customer assistance, training, data extraction) and in the improvement of the proposed solution (configurations of new features, database maintenance).",
-                "I gained extensive experience on-the-job of Oracle SQL and healthcare IT consultancy, while improving various soft skills: relational skills with colleagues and customers, efficient work organization, problem solving, emergency management."
+                "object": "Company solution consultant",
+                "time": "May 2021 - Apr. 2023",
+                "location": "Engineering",
+                "text": [
+                    "Application specialist at the Hospital in Padua, with a role of responsibility and autonomy both in the management of routine activities (customer training and assistance, data extraction) and in the improvement of the proposed solution (configuration of new features, database maintenance). I also participated in kick-offs of the new software in various italian hospitals.",
+                    "I gained extensive experience on-the-job of Oracle SQL and healthcare IT consultancy, while improving various soft skills: relational skills with colleagues and customers, efficient work organization, problem solving, emergency management."
                 ]
             }
         ]
@@ -17,11 +17,20 @@
         "title": "Education",
         "data": [
             {
-            "subtitle": "2018 - 2021: Master's degree in Bioengineering",
-            "location": "@ Università degli Studi di Padova",
-            "text": [
-                "Final mark: 101/110",
-                "Thesis: Classifiers for the identification of bacterial infections in developing countries: selection of biomarkers and machine learning techniques"
+                "object": "Online bootcamps",
+                "time": "Apr. 2023 - Sept. 2023",
+                "location": "Udemy",
+                "text": [
+                    "I learnt Python and web development through online courses."
+                ]
+            },
+            {
+                "object": "Master's degree in Bioengineering",
+                "time": "Sept. 2018 - Apr. 2021",
+                "location": "Università degli Studi di Padova",
+                "text": [
+                    "Final mark: 101/110",
+                    "Thesis: Classifiers for the identification of bacterial infections in developing countries: selection of biomarkers and machine learning techniques"
                 ]
             }
         ]
@@ -30,8 +39,9 @@
         "title": "Certifications",
         "data": [
             {
-                "subtitle": "2022: State Exam for Professional Information Engineer",
-                "location": "@ Università degli Studi di Padova",
+                "object": "State Exam for Professional Information Engineer",
+                "time": "Dec. 2021",
+                "location": "Università degli Studi di Padova",
                 "text": []
             }
         ]
@@ -40,7 +50,8 @@
         "title": "Other experiences",
         "data": [
             {
-                "subtitle": "",
+                "object": "",
+                "time": "",
                 "location": "",
                 "text": [
                     "▶ entertainer, organizer and coordinator of the parish summer camp",
@@ -56,7 +67,8 @@
         "title": "Hobbies",
         "data": [
             {
-                "subtitle": "",
+                "object": "",
+                "time": "",
                 "location": "",
                 "text": [
                     "I believe I fit the engineer stereotypes quite well, being a bit of a \"nerd\" and all. My main hobby is playing a lot of games, such as board games, card games, and especially video games; in fact, I'd like to develop a game of my own someday. Additionally, I have a keen interest in watching anime, TV series, and films.",

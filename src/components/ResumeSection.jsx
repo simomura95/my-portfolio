@@ -12,8 +12,11 @@ function ResumeSection(props) {
         return (
             <div key={index}>
                 <div className={`lead fw-bold mb-3 ${isDark ? "light-dark-color" : "dark-light-color"}`}>
-                    {entry.subtitle && <p className="mb-0">{entry.subtitle}</p>}
-                    {entry.location && <p className="mb-0">{entry.location}</p>}
+                    {entry.object && <p className="mb-0">{entry.object}</p>}
+                    <div className="ms-3">
+                        {entry.time && <p className="mb-0">{entry.time}</p>}
+                        {entry.location && <p className="mb-0">{entry.location}</p>}
+                    </div>
                 </div>
                 {entry.text.map(CreateParagraph)}
                 {index < props.data.length-1 && <hr className={`my-4 ${isDark ? "light-dark-color" : "dark-light-color"}`}/>}
@@ -23,7 +26,7 @@ function ResumeSection(props) {
     
     return (
         <div key={props.index} className="my-5">
-            <div className={`text-lg-start text-center p-4 rounded-5 ${isDark ? "dark-mode" : "light-mode"}`}>
+            <div className={`text-md-start text-center p-4 rounded-5 ${isDark ? "dark-mode" : "light-mode"}`}>
                 {props.title && <h2 className="display-6 fw-bold mb-3z">{props.title}</h2> }
                 {props.data.map(createEntry)}
             </div>
