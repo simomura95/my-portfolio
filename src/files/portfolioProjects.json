@@ -88,12 +88,26 @@
         ]
     },
     "jsProjects": {
-            "React": [
+        "MERN stack": [
+            {
+                "img": "/images/listodo-mern.png",
+                "text": "Web app with authentication for keeping to-do lists. Users can add unlimited lists and items, which are saved in a Mongo database",
+                "github": "https://github.com/simomura95/todo-list-mern",
+                "website": "https://my-listodo.netlify.app/"
+            }    
+        ],
+        "React": [
                 {
                     "img": "",
                     "text": "This website. It was originally built with only HTML and CSS, and later translated to React.",
                     "github": "https://github.com/simomura95/my-portfolio",
                     "website": ""
+                },
+                {
+                    "img": "/images/listodo-react-simple.png",
+                    "text": "To-do list app built entirely with React (no back-end). Items are saved in localStorage.",
+                    "github": "https://github.com/simomura95/todo-list-react-simple",
+                    "website": "https://my-listodo-simple.netlify.app/"
                 }
             ],
             "EJS": [
