@@ -35,7 +35,7 @@ function Home() {
             <div className="row flex-lg-row align-items-center g-5 justify-content-center">
                 {/* Profile pic */}
                 <div className="col-lg-4 col-6 d-flex justify-content-center">
-                    <img src='/images/profile_photo.png' className="d-block mx-lg-auto img-fluid rounded-circle" alt="Profile" width="300" height="500" loading="lazy" />
+                    <img src='/images/CV_photo.png' className="d-block mx-lg-auto img-fluid rounded-circle" alt="Profile" width="300" height="500" loading="lazy" />
                 </div>
                 {/* Text */}
                 <div className="col-lg-6 text-lg-start text-center px-sm-5">
