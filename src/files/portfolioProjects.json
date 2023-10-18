@@ -88,13 +88,19 @@
         ]
     },
     "jsProjects": {
-        "MERN stack": [
+        "Full stack": [
+            {
+                "img": "/images/my-watchlist.png",
+                "text": "Web app for storing movies watched and their ratings. It uses NestJS for the backend, Vite+React for the frontend, MongoDB for the database, and TypeScript.",
+                "github": "https://github.com/simomura95/My-tv-list",
+                "website": "https://my-watchlist-movies.netlify.app/"
+            },
             {
                 "img": "/images/listodo-mern.png",
-                "text": "Web app with authentication for keeping to-do lists. Users can add unlimited lists and items, which are saved in a Mongo database",
+                "text": "Web app built with MERN stack for keeping to-do lists. Authenticated users can add unlimited lists and items, which are saved in a Mongo database",
                 "github": "https://github.com/simomura95/todo-list-mern",
                 "website": "https://my-listodo.netlify.app/"
-            }    
+            }
         ],
         "React": [
                 {

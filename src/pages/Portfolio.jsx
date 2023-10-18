@@ -29,13 +29,13 @@ function Portfolio() {
             </div>
 
             <div className="mb-5">
-                <h2 className={`text-center pb-3 display-6 ${isDark ? "light-dark-color" : "dark-light-color"}`}>Python projects</h2>
-                {Object.entries(projects.pythonProjects).map(createSection)}
+                <h2 className={`text-center pb-3 display-6 ${isDark ? "light-dark-color" : "dark-light-color"}`}>JavaScript projects</h2>
+                {Object.entries(projects.jsProjects).map(createSection)}
             </div>
 
             <div className="mb-5">
-                <h2 className={`text-center pb-3 display-6 ${isDark ? "light-dark-color" : "dark-light-color"}`}>JavaScript projects</h2>
-                {Object.entries(projects.jsProjects).map(createSection)}
+                <h2 className={`text-center pb-3 display-6 ${isDark ? "light-dark-color" : "dark-light-color"}`}>Python projects</h2>
+                {Object.entries(projects.pythonProjects).map(createSection)}
             </div>
         </div>
     )
