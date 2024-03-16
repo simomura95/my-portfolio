@@ -20,7 +20,7 @@ function Portfolio() {
             <div className="col-lg-6 col-md-8 mx-auto text-center mb-5">
                 <h1 className="display-4">My portfolio</h1>
                 <p className="lead">
-                    Besides this fully responsive website, I have developed several projects to solidify and apply my knowledge.
+                    Besides this fully responsive website, I have been developing several personal projects to solidify and apply my knowledge.
                     Here I present a concise overview of each project, along with a direct link to its corresponding repository on <a href="https://github.com/simomura95">my GitHub account</a>.
                 </p>
                 <p className="lead">

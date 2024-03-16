@@ -90,6 +90,12 @@
     "jsProjects": {
         "Full stack": [
             {
+                "img": "",
+                "text": "Web app built with PostgreSQL for database, .NET for backend and Angular for frontend as part of a coding challenge for a job interview.",
+                "github": "https://github.com/simomura95/TodoList_NET_Angular_Postgres",
+                "website": ""
+            },
+            {
                 "img": "/images/my-watchlist.png",
                 "text": "Web app for storing movies watched and their ratings. It uses NestJS for the backend, Vite+React for the frontend, MongoDB for the database, and TypeScript.",
                 "github": "https://github.com/simomura95/My-tv-list",
@@ -100,6 +106,14 @@
                 "text": "Web app built with MERN stack for keeping to-do lists. Authenticated users can add unlimited lists and items, which are saved in a Mongo database",
                 "github": "https://github.com/simomura95/todo-list-mern",
                 "website": "https://my-listodo.netlify.app/"
+            }
+        ],
+        "Angular": [
+            {
+                "img": "/images/lupus.png",
+                "text": "Website to support playing Lupus in Fabula italian party game (also known as Mafia internationally).",
+                "github": "https://github.com/simomura95/lupus-in-fabula",
+                "website": "https://lupus-in-fabula.netlify.app"
             }
         ],
         "React": [

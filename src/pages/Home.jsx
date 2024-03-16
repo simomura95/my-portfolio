@@ -40,11 +40,11 @@ function Home() {
                 {/* Text */}
                 <div className="col-lg-6 text-lg-start text-center px-sm-5">
                     <h1 className="display-2 fw-bold mb-3 ">Simone Muraro</h1>
-                    <p className="fs-2">Aspiring full-stack engineer</p>
-                    <p className="fs-5">
+                    <p className="fs-2">Software developer</p>
+                    {/* <p className="fs-5">
                         I am actively seeking openings for a junior position.<br />
                         Please don't hesitate to reach out if you have any inquiries or potential opportunities.
-                    </p>
+                    </p> */}
                 </div>
             </div>
 
@@ -59,11 +59,13 @@ function Home() {
                 <div className="col-lg-8 text-lg-start text-center px-sm-5">
                     <h2 className={`display-5 fw-bold mb-3 ${isDark ? "light-dark-color" : "dark-light-color"}`}>About me</h2>
                     <p className="fs-5">
-                        I got into programming some months ago and decided to pursue it as a career.
-                        Since then, I have been learning Python and web development full-time, adding to the experience gained on-the-job with databases.
+                        After graduation, I started my career as an application consultant at Engineering SPA.<br></br>
+                        Two years later, my interest in more technical work led me to delve into programming.<br></br>
+                        After several months of full-time learning, I secured my current job at Wintech SPA.
                     </p>
                     <p className="fs-5">
-                        My main strength is my logical and analytical way of thinking. I'm a fast learner, adaptable to any situation and willing to put in the effort required to achieve my goals.
+                        My main strength is my logical and analytical way of thinking.<br></br>
+                        I'm a fast learner, adaptable to any situation and willing to put in the effort required to achieve my goals.
                     </p>
                     <p className="fs-5">
                         In my free time I like to play video games, watching anime and TV series and do volunteer work.

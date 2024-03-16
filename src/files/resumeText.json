@@ -3,9 +3,18 @@
         "title": "Work experiences",
         "data": [
             {
+                "object": "Software developer",
+                "time": "Feb 2024 - now",
+                "location": "Wintech SPA",
+                "text": [
+                    "Software developer intern. I'm currently working on a project to integrate the use of AI into business processes, such as querying information from a document database using natural language.",
+                    "Technology stack: Python, Java, Angular."
+                ]
+            },
+            {
                 "object": "Company solution consultant",
                 "time": "May 2021 - Apr. 2023",
-                "location": "Engineering",
+                "location": "Engineering SPA",
                 "text": [
                     "Application specialist at the Hospital in Padua, with a role of responsibility and autonomy both in the management of routine activities (customer training and assistance, data extraction) and in the improvement of the proposed solution (configuration of new features, database maintenance). I also participated in kick-offs of the new software in various italian hospitals.",
                     "I gained extensive experience on-the-job of Oracle SQL and healthcare IT consultancy, while improving various soft skills: relational skills with colleagues and customers, efficient work organization, problem solving, emergency management."
@@ -18,7 +27,7 @@
         "data": [
             {
                 "object": "Online bootcamps",
-                "time": "Apr. 2023 - Sept. 2023",
+                "time": "Apr. 2023 - Nov. 2023",
                 "location": "Udemy",
                 "text": [
                     "I learnt Python and web development through online courses."
@@ -71,8 +80,8 @@
                 "time": "",
                 "location": "",
                 "text": [
-                    "I believe I fit the engineer stereotypes quite well, being a bit of a \"nerd\" and all. My main hobby is playing a lot of games, such as board games, card games, and especially video games; in fact, I'd like to develop a game of my own someday. Additionally, I have a keen interest in watching anime, TV series, and films.",
-                    "Ever since high school, and to this day, I have actively engaged in volunteering, particularly with children and teenagers. I really enjoy spending spending time with them, and I genuinely believe that everyone should give it a try.",
+                    "I believe I fit the engineer stereotypes quite well, being a bit of a \"nerd\" and all. My main hobby is playing a lot of games, such as board games, card games and especially video games. Additionally, I have a keen interest in watching anime, TV series and films.",
+                    "Ever since high school, and to this day, I have actively engaged in volunteering, particularly with children and teenagers. I really enjoy spending spending time with them and I genuinely believe that everyone should give it a try.",
                     "If given the opportunity, I hope to utilize my programming skills to assist and make a positive impact on people's lives."
                 ]
             }

@@ -12,8 +12,8 @@ function PortfolioCard(props) {
                         {props.text}
                     </p>
                     <div className="d-flex flex-row gap-2 mt-auto">
-                        <a href={props.github} className="btn btn-sm btn-outline-secondary">Check repository</a>
-                        {props.website && <a href={props.website} className="btn btn-sm btn-outline-secondary">Check website</a>}
+                        <a href={props.github} className="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener noreferrer">Check repository</a>
+                        {props.website && <a href={props.website} className="btn btn-sm btn-outline-secondary" target="_blank" rel="noopener noreferrer">Check website</a>}
                     </div>
                 </div>
             </div>

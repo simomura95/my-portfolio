@@ -1,8 +1,8 @@
 [
     {
-        "name": "JavaScript",
+        "name": "JavaScript/TypeScript",
         "level": 80,
-        "text": "MERN stack, React, Typescript, NestJS, Express, Node, APIs, EJS, jQuery"
+        "text": "MERN stack, Angular, React, Node, NestJS, Express, APIs, jQuery, EJS"
     },
     {
         "name": "HTML/CSS",
@@ -12,11 +12,16 @@
     {
         "name": "Python",
         "level": 75,
-        "text": "Flask, Jinja, web scraping, APIs, GUI (Tkinter), OOP"
+        "text": "Langchain library, Flask, Jinja, web scraping, APIs, GUI (Tkinter), OOP"
+    },
+    {
+        "name": "Java",
+        "level": 50,
+        "text": "Java Spring, Spring Boot"
     },
     {
         "name": "Databases",
         "level": 60,
-        "text": "SQLite, Oracle SQL, MongoDB"
+        "text": "SQLite, Oracle SQL, MongoDB, ChromaDB"
     }
 ]
